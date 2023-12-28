@@ -1,0 +1,33 @@
+#page-header{
+      /* 背景图像的地址（url括号里）  */
+    background: url(/img/background.jpg);
+      /* 背景图像不重复 */
+    background-repeat: no-repeat;
+    /* 背景图像大小 */
+    background-size: cover;
+}
+/* 文章页背景 */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* #recent-posts > .recent-post-item { */
+    /* 以下代表透明度为0.5 可以自行修改*/
+
+    /* background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+    /* background-size: 400% 400%; */
+    /* animation: gradientBG 15s ease infinite; */
+/* } */
+
+
+/* 夜间模式下背景宇宙星光 */
+
+/* 亮色模式下隐藏 */
